@@ -2,4 +2,6 @@
 
 My student site for NMA.
 
-Veiw site(https://emancornma.github.io/studentsite/)
+[Veiw site][def]
+
+[def]: https://emancornma.github.io/studentsite/

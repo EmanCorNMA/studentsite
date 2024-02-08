@@ -184,3 +184,15 @@ footer {
         padding: .3em 2em 0 0;
     }
 }
+
+.pre, code {
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+/* GIST */
+@media (min-width: 768px) and (max-width: 883px) {
+    .gist {
+        max-width:  450px; 
+    }
+}

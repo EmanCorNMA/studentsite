@@ -121,6 +121,10 @@ footer {
     font-weight: 900;
 }
 
+.courses img {
+    display: block;
+}
+
 /* SUB PAGES */
 .page-sub .hero {
     background-color:  rgb(163, 201, 216);

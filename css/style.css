@@ -21,7 +21,6 @@ header {
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: none;
 }
 
 header a {
@@ -61,7 +60,7 @@ main {
 
 /* FOOTER */
 footer {
-    border-top: 1px solid rgba(rgb(0, 0, 0));
+    border-top: 1px solid black;
     padding: 1em;
 }
 
@@ -183,7 +182,7 @@ footer {
         grid-template-columns: 20em auto;
     }
     .two-col-sidebar aside {
-        border-right: 1 px solid rgba(0, 0, 0, 0.1);
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
         margin: 0 3em 2em 0;
         padding: .3em 2em 0 0;
     }

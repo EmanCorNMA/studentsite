@@ -573,12 +573,14 @@ form input[type="submit"] {
 /* AQUA DISCUSS */
 
 
+ 
+  
 
 
 /* site-main */
 
 .site-main {
-    background-color:rgb(0, 0, 0, .8);
+    background-color: #FFE8D3;
 }
 
 /* IMAGE STYLING */
@@ -612,9 +614,31 @@ img.alt.tilt {
 
 /* SECTION BLACK, GREEN, VANILLA */
 
+.section-1 {
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 0px;
+}
+
+.section-2 {
+    padding: 0;
+    padding-left: 60px;
+}
+
+.bar-green {
+    padding: 0;
+    background-color: #00AF11;
+}
+
+.bar-vanilla {
+    padding: 0;
+    padding-left: 0px;
+    background-color: #FFE8D3;
+}
+
 .black {
     padding: 0;
-    padding-left: 120px;
+    padding-left: 60px;
 }
 
 .green {
@@ -622,9 +646,16 @@ img.alt.tilt {
     padding-left: 60px;
 }
 
+
 .vanilla {
     padding: 0;
     padding-left: 0px;
+}
+
+.vanilla-bg {
+    padding: 0;
+    padding-left: 0px;
+    background-color: #FFE8D3;
 }
 
 /* HERO */
@@ -687,7 +718,7 @@ img.alt.tilt {
     padding: 3em 0;
     padding-left: 180px;
     padding-right: 120px;
-    background-color:#FFE8D3;
+    background-color:rgba(0, 0, 0, .0);
     color: rgb(0, 0, 0);
   }
 

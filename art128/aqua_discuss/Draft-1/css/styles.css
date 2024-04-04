@@ -217,8 +217,8 @@ body.demo::before {
 .button, button, form input[type="submit"] {
     font-size: inherit;
     line-height: 1;
-    background-color: blue;
-    border: 1px solid blue;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     color: white;
     padding: 1em;
     display: inline-block;
@@ -231,18 +231,18 @@ body.demo::before {
 
 .button:hover, button:hover, form input[type="submit"]:hover {
     background-color: transparent;
-    border: 1px solid blue;
-    color: blue;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 .button.alt {
-    background-color: transparent;
-    color: blue;
+    background-color: white;
+    color: rgb(0, 0, 0);
 }
 
 .button.alt:hover {
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 
@@ -290,12 +290,12 @@ body.demo::before {
 /* STYLING HEADER & FOOTER */
 
 .site-header a, .site-footer a {
-color: rgba(0, 0, 0, 0.8);
+color: rgba(255, 255, 255, 0.8);
 text-decoration: none;
 }
 
 .site-header a:hover, .site-footer a:hover {
-color: rgba(0, 0, 0, 1);
+color: rgb(255, 255, 255);
 text-decoration: none;
 }
 
@@ -353,6 +353,14 @@ section {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+
+
+
+
+
 
 
 /* MOBILE TOGGLE NAV */
@@ -527,8 +535,8 @@ form input[type="submit"] {
 .site-header.sticky {
     position: fixed;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1
 }
 
 .site-header.sticky + main {
@@ -538,8 +546,160 @@ form input[type="submit"] {
 
 /* VERTICAL MEDIA QUERY */
 
-@media (min-height: 800px) {
+/*@media (min-height: 400px) {
    #contact {
     padding-bottom: 20em;
    } 
 }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* AQUA DISCUSS */
+
+
+
+
+/* site-main */
+
+.site-main {
+    background-color:rgb(0, 0, 0, .8);
+}
+
+/* IMAGE STYLING */
+
+img.rounded-corners {
+    border-radius: 15px;
+  }
+
+img.tilt {
+    max-width: 80%;
+    margin-top: 2em;
+    margin-left: 2em;
+    transform: rotate(10deg);
+    height: auto;
+}
+
+img.alt.tilt {
+    max-width: 80%;
+    margin-top: 2em;
+    margin-left: 0;
+    margin-right: 2em;
+    transform: rotate(-10deg);
+    height: auto;
+}
+
+/* HEADER */
+
+.site-id {
+    padding-right: 35px;
+}
+
+/* SECTION BLACK, GREEN, VANILLA */
+
+.black {
+    padding: 0;
+    padding-left: 120px;
+}
+
+.green {
+    padding: 0;
+    padding-left: 60px;
+}
+
+.vanilla {
+    padding: 0;
+    padding-left: 0px;
+}
+
+/* HERO */
+
+.hero {
+    padding: 0em 0em;
+    padding-left: 60px;
+    background-color:rgb(0, 0, 0, 1);
+    text-align: center;
+    max-height: 568.88px;
+}
+
+/* TANK IMAGE */
+.tank {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+
+.w-i-y-t {
+    position: absolute;
+    bottom: 30px;
+    padding-left: 40px;
+    color: #FFC700;
+    text-align: left;
+    font-size: 100px;
+    font-weight: bolder;
+    line-height: 100px;
+    
+  }
+
+/* WHATS NEW + ANGEL IMAGE */
+
+.whats-new {
+    padding: 3em 0;
+    padding-left: 90px;
+    padding-right: 160px;
+    background-color:rgb(0, 0, 0, 1);
+    color: #FFC700;
+  }
+
+/* CONTENT */
+
+.content {
+    padding: 3em 0;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-image: linear-gradient(#00AF11, #FFC700);
+    color: rgb(0, 0, 0);
+  }
+
+.row {
+    padding: 2em 0;
+}
+
+/* CONTENT */
+
+.about-us {
+    padding: 3em 0;
+    padding-left: 180px;
+    padding-right: 120px;
+    background-color:#FFE8D3;
+    color: rgb(0, 0, 0);
+  }
+
+/* SITE-FOOTER */
+
+.site-footer {
+    padding: 3em 0;
+    padding-left: 180px;
+    padding-right: 120px;
+    background-color:rgb(0, 0, 0);
+    color: rgba(255, 255, 255, .9);
+  }
+
+
+

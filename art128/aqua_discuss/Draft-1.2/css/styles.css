@@ -747,7 +747,7 @@ img.alt.tilt {
         min-width: 768px;
         max-width: 1080px;
     }
-
+  }
 
 
 
@@ -764,14 +764,14 @@ img.alt.tilt {
 .right-black {
     margin: 0;
     padding: 0;
-    min-height: 1079.17px;
-    background-color: #000000;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .right-green {
     margin: 0;
     padding: 0;
-    min-height: 1346.81px;
+    /* min-height: 1346.81px; */
     background-image: linear-gradient(#00AF11, #FFC700);
 }
 

@@ -623,7 +623,7 @@ form input[type="submit"] {
 
     .column.one-half.img-column {
         padding: 0;
-        padding-top: 4em;
+        padding-top: 0em;
     }
 
     .row.plant {
@@ -704,7 +704,6 @@ p {
 button,
 form input[type="submit"] {
     line-height: 1;
-    position: absolute;
     background-color: transparent;
     border: 2px solid transparent;
     border-bottom: 2px solid black;
@@ -728,7 +727,6 @@ form input[type="submit"] {
 .button:hover,
 button:hover,
 form input[type="submit"]:hover {
-    position: absolute;
     background-color: transparent;
     border: 2px solid black;
     border-radius: 6px;
@@ -737,7 +735,6 @@ form input[type="submit"]:hover {
 }
 
 .button.alt {
-    position: absolute;
     background-color: transparent;
     border: 2px solid transparent;
     border-bottom: 2px solid white;
@@ -749,7 +746,6 @@ form input[type="submit"]:hover {
 }
 
 .button.alt:hover {
-    position: absolute;
     background-color: transparent;
     border: 2px solid white;
     border-radius: 6px;

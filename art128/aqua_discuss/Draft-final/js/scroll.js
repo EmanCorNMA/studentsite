@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const siteheadersticky = haveClass(siteheader, "sticky");
     var offset;
     if (siteheadersticky) {
-      offset = document.querySelector(".site-id").offsetHeight + 25;
+      offset = document.querySelector(".site-id").offsetHeight + 45;
     } else {
       offset = 0;
     }

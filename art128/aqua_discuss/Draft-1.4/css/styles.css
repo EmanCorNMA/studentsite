@@ -543,7 +543,8 @@ form input[type="submit"] {
 
 .site-header.sticky {
     position: fixed;
-    width: 100%;
+    margin-left: 80%;
+    width: 20%;
     background-color: rgba(255, 255, 255, 0);
     z-index: 1
 }
@@ -821,6 +822,28 @@ form input[type="submit"]:hover {
     padding: 4em 0;
 }
 
+.img-angel-container {
+    position: relative;
+}
+
+.img-angel-text {
+    pointer-events: none;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    opacity: 80%;
+}
+
+.img-angel:hover {
+    cursor: pointer;
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
 /* PADDING FOR 1/2 COLUMN */
 
 .row {
@@ -848,6 +871,11 @@ form input[type="submit"]:hover {
     color: rgb(0, 0, 0);
 }
 
+img.icon2 {
+    max-width: 100%;
+    pointer-events: none;
+}
+
 /* SITE-FOOTER */
 
 .site-footer {
@@ -863,6 +891,7 @@ form input[type="submit"]:hover {
 img.icon {
     max-width: 100%;
     align-self: center;
+    pointer-events: none;
 }
 
 .gmail {
@@ -928,7 +957,7 @@ p.icon-text {
     }
 
     img.icon {
-        max-width: 10%;
+        max-width: 100%;
     }
 }
 
@@ -952,7 +981,7 @@ p.icon-text {
     }
 
     img.icon {
-        max-width: 10%;
+        max-width: 100%;
     }
 }
 
@@ -976,8 +1005,10 @@ p.icon-text {
     }
 
     img.icon {
-        max-width: 15%;
+        max-width: 100%;
     }
+
+
 }
 
 
@@ -1009,13 +1040,13 @@ p.icon-text {
 /* VANILLA */
 
 .v-icon {
-    width: 60px;
+    width: clamp(10px, 3vw, 60px);
     height: 80px;
     margin-bottom: -80px;
     background: rgba(0, 0, 0, 0);
     position: sticky;
     top: 1em;
-    margin-left: 1.25%;
+    margin-left: 1.40%;
     padding-bottom: 1em;
 }
 
@@ -1038,13 +1069,13 @@ p.icon-text {
 /* GREEN */
 
 .g-icon {
-    width: 60px;
+    width: clamp(10px, 3vw, 60px);
     height: 80px;
     margin-bottom: -80px;
     background: rgba(0, 0, 0, 0);
     position: sticky;
     top: 1em;
-    margin-left: 1.25%;
+    margin-left: 1.7%;
     padding-bottom: 1em;
 }
 
@@ -1069,13 +1100,13 @@ p.icon-text {
 /* BLACK */
 
 .b-icon {
-    width: 60px;
+    width: clamp(10px, 3vw, 60px);
     height: 80px;
     margin-bottom: -80px;
     background: rgba(0, 0, 0, 0);
     position: sticky;
     top: 1em;
-    margin-left: 1.25%;
+    margin-left: 2%;
     padding-bottom: 1em;
 }
 
@@ -1096,3 +1127,29 @@ p.icon-text {
     padding: 0;
     margin-left: 6.6%;
 }
+
+/* DONATE BUTTON */
+
+.donate {
+    align-items: center;
+    margin-top: 10%;
+    border-width: 20;
+    max-width: 10em;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 1);
+    color: #FFC700;
+    text-align: center;
+    border-radius: 5em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    line-height: 1;
+    /* FONT */
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3.5em;
+    cursor: pointer;
+}
+
+/* NAV */
